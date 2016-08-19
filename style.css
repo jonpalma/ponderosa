@@ -1,0 +1,611 @@
+/*
+Theme Name: Ponderosa
+Theme URL: http://
+Author: Agencia Mixen
+Author URL: http://mixen.mx/
+Description: Tema para el sitio de Ponderosa.
+Version: 1.0
+Text Domain: Mixen Communication & Web Technology
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,400);
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
+@font-face {
+    font-family: 'Champagne&LimousinesBold';
+    src: url(fonts/Champagne&LimousinesBold.ttf);
+}
+
+@font-face {
+    font-family: 'Champagne&Limousines';
+    src: url(fonts/Champagne&Limousines.ttf);
+}
+
+/* GENERAL STYLES */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.spacing {
+    padding: 100px 10px;
+}
+
+.light-spacing {
+    padding: 50px 10px;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.wrapper {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.heading {
+    font-size: 47px;
+    font-weight: 700;
+    margin: 30px 0 50px;
+}
+
+.text {
+    font-size: 26px;
+}
+
+.white {
+    color: #fff;
+}
+
+
+/* NAVBAR */
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar .navbar-nav {
+    float: none;
+    text-align: center;
+    height: 80px;
+    display: flex;
+}
+
+.navbar .container-fluid {
+    max-width: 1170px;
+}
+
+.navbar .navbar-nav > li {
+    height: 80px;
+    border: none;
+    display: inline-block;
+    float: none;
+    flex: auto;
+}
+
+.navbar .navbar-nav > li > a {
+    color: #ffffff!important;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+
+    display: inline-block;
+}
+
+.navbar.navbar-fixed-top .navbar-nav > li.active > a,
+.navbar.navbar-fixed-top .navbar-nav > li:hover > a {
+    background-color: transparent;
+    color: #d9d9d9!important;
+}
+
+.navbar .navbar-nav .nav-padd {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar .navbar-nav .nav-logo img {
+    height: 80px;
+    max-height: 100%;
+}
+
+.navbar .navbar-nav .nav-social {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.navbar .navbar-nav .nav-social img {
+    height: 25px;
+}
+
+
+/* BANNER */
+.banner .carousel .item {
+    /*height: 1000px;*/
+    overflow: hidden;
+}
+
+.banner .carousel .img-container {
+    position: relative;
+    /*min-height: 100%;
+    min-width: 100%;*/
+}
+
+.banner .carousel .item img {
+    /*position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;*/
+    margin: 0;
+    /*top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)*/
+    width: 100%;
+}
+
+
+/* NOSOTROS */
+.nosotros .container {
+    background-size: cover;
+}
+
+.nosotros p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #2f2f2f;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+}
+
+.nosotros img {
+    padding: 30px 30px 30px 30px;
+    min-height: none;
+    max-height: 100%;
+    min-width: none;
+    max-width: 100%;
+}
+
+
+/* PRE-PRODUCTOS */
+.preproductos {
+    position: relative;
+    margin-top: 340px;
+}
+
+.preproductos .preproductos-img .top-background {
+    position: absolute;
+    z-index: 1;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.preproductos .bottom-background {
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+
+/* PRODUCTOS */
+.productos .container {
+    position: relative;
+}
+
+.productos .container .encabezado p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #505050;
+}
+
+.productos .container .row .col-sm-2 .img-container {
+    position: relative;
+    height: 280px;
+}
+
+.productos .container .row .col-sm-2 .img-container img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: none;
+    width: 180%;
+    transition: width 300ms ease;
+    cursor: pointer;
+    border: 25px solid #fff;
+    border-radius: 50%;
+    box-shadow: 1px 2px 32px 0.00px rgba(35, 31, 32, 0.41);
+}
+
+
+.productos .container .row .col-sm-2 .img-container.active::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    margin: 0 auto;
+    bottom: -35px;
+    background-color: #ee2e24;
+    z-index: 10;
+}
+
+.productos .container .row .col-sm-2 .img-container.active img,
+.productos .container .row .col-sm-2 .img-container img:hover {
+    width: 200%;
+    z-index: 10;
+}
+
+.productos .container .lbproductos {
+    padding-top: 100px;
+}
+
+.productos .container .lbproductos p {
+    margin: 0;
+    font: italic 700 24px 'Roboto', sans-serif;
+    color: #ee2e24;
+}
+
+
+/* RECETAS */
+.recetas {
+    background-size: cover;
+}
+
+.recetas .icono {
+    height: 100px;
+    width: 100px;
+}
+
+.recetas .container h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #505050;
+    z-index: 10;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.recetas .row .col-sm-4 {
+    min-height: 100%
+}
+
+.recetas .row .col-sm-4 .bckgnd img {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.recetas h5,
+.recetas p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.recetas h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #505050;
+}
+
+.recetas .row p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #505050;
+    z-index: 10;
+}
+
+.recetas .row a {
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 20px;
+    line-height: 40px;
+    color: #505050;
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none!important;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.recetas .row a:hover {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.recetas .img-container {
+    padding: 30px 10px;
+    border-radius: 10px;
+    -webkit-transition: background 300ms ease;
+    -moz-transition: background 300ms ease;
+    transition: background 300ms ease;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.recetas .bckgnd {
+    background:
+        linear-gradient(135deg, transparent 10px, #fff 0) top left,
+        linear-gradient(225deg, transparent 10px, #fff 0) top right,
+        linear-gradient(315deg, transparent 10px, #fff 0) bottom right,
+        linear-gradient(45deg, transparent 10px, #fff 0) bottom left;
+    background-size: 51% 51%;
+    background-repeat: no-repeat;
+    background-image:
+        radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #fff 15px),
+        radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #fff 15px),
+        radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #fff 15px),
+        radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #fff 15px);
+    height: 450px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.recetas .item {
+    margin-bottom: 70px;
+}
+
+.recetas .carousel-indicators li {
+    background-color: #ee2e24;
+    border: 1px solid #fff;
+}
+
+/* CONTACTANOS */
+.contactanos {
+    background-size: cover;
+    position: relative;
+}
+
+.contactanos .googleMap {
+    height: 250px;
+}
+
+.contactanos .contactanos-bottom {
+    position: relative;
+    height: 400px;
+    background: url(img/contactanos/bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.contactanos .contactanos-bottom .form-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80%;
+}
+
+.contactanos .contactanos-bottom .form-container .col-sm-3 {
+    display: block;
+    left: 0;
+    right: 0;
+    top: 25%;
+    margin: 0 auto;
+    
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.contactanos .contactanos-bottom .form-container .left-side img {
+    max-width: 100%;
+}
+
+.contactanos .contactanos-bottom .form-container .left-side .social {
+    margin-top: 25px;
+}
+
+.contactanos .contactanos-bottom .form-container .left-side .social img {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.contactanos .contactanos-bottom .form-container .right-side p {
+    max-width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.contactanos .contactanos-bottom .form-container .right-side p::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    background-size: contain!important;
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+.contactanos .contactanos-bottom .form-container .right-side .address::before {
+
+    background: url(img/contactanos/pin.png) no-repeat center center;
+
+}
+
+.contactanos .contactanos-bottom .form-container .right-side .phone::before {
+    background: url(img/contactanos/phone.png) no-repeat center center;
+}
+
+.contactanos .contactanos-bottom .form-container .right-side .web::before {
+    background: url(img/contactanos/email.png) no-repeat center center;
+}
+
+.contactanos .container.form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.contactanos .col-sm-6:not(.middle) {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.contactanos .col-sm-6 .container-size {
+    background-color: #ffffff;
+    max-width: 500px;
+    padding: 30px;
+    margin:  0 auto;
+}
+
+.contactanos .col-sm-6:not(.middle) h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #505050;
+    text-align: center;
+}
+
+.contactanos .col-sm-6:not(.middle) label, input, textarea {
+    outline: none;
+    margin-top: 10px;
+    width: 100%
+}
+
+.contactanos .col-sm-6:not(.middle) label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #7f7f7f;
+}
+
+.contactanos .col-sm-6:not(.middle) input[type=text], input[type=email], textarea {
+    min-height: 40px;
+    border-radius: 7px;
+    border-color: #c2c2c2;
+    border: 1px solid;
+}
+
+.contactanos .col-sm-6:not(.middle) input[type=submit] {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: #c2c2c2;
+    background-color: #ffffff;
+    border: 1px solid;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #505050;
+}
+
+
+/* FOOTER */
+footer {
+    background: url(img/contactanos/bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+footer .footer-rights {
+    background-color: rgba(166, 23, 28, 0.6);
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+footer .footer-rights p {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+    display: inline-block;
+}
+
+footer .footer-rights a {
+    text-decoration: none!important;
+    color: #c7c7c7;
+}
+
+footer .footer-rights a:hover {
+    color: #ffffff;
+}
+
+
+/*** Parallax CSS ****/
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+    height: auto;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    min-width: 1920px;
+    min-height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+
+/*** RESPONSIVE ****/
+@media(max-width: 1200px) {
+    .preproductos {
+        margin-top: 30vw
+    }
+}
+
+@media(max-width: 992px) {
+
+}
+
+@media(max-width: 767px) {
+    .contactanos .container.form {
+        position: relative;
+        transform: none;
+        top: 0;
+    }
+}
+
+
+
