@@ -1,4 +1,8 @@
 $('.productos .img-container').click(function() {
+    
+    $(this).prev().find('img').css({zIndex:'9'});
+    
+    console.log($(this).prev().find('img'));
     $num=$(this).index('.productos .img-container');
     $lb='#label-'+$num;
     $('.productos .img-container').removeClass('active');
@@ -7,10 +11,17 @@ $('.productos .img-container').click(function() {
     $($lb).removeClass('hidden');
 });
 
-/*
-if ($(window).width() < 767) {
-   $('.productos .container .row .img-container p').removeClass('hidden');
-}
-else {
-   $('.productos .container .row .img-container p').addClass('hidden');
-}*/
+
+$(window).scroll(function () {
+    var topDivHeight = $('#banner').height() + $('#nosotros').height();
+    var viewPortSize = $(window).height();
+    
+    var triggerAt = 150;
+    var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
+
+    if ($(window).scrollTop() >= triggerHeight) {
+        $('.fadein').css('visibility', 'visible').hide().fadeIn(2000);
+        $(this).off('scroll');
+    }
+});
+

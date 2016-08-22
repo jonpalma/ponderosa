@@ -9,6 +9,7 @@
     </head>
     <body>
         <nav class="navbar navbar-default navbar-fixed-top">
+            <a href="#banner"><img class="top-logo" src="img/header/logoNavbar.png" alt=""></a>
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -26,8 +27,8 @@
                         <li><a href="#banner" class="smoothScroll vertical-align nav-logo"><img src="img/header/logoNavbar.png" alt="logo"></a></li>
                         <li><a href="#recetas" class="smoothScroll vertical-align nav-padd">RECETAS</a></li>
                         <li><a href="#contactanos" class="smoothScroll vertical-align nav-padd">CONTACTOS</a></li>
-                        <li><a href="facebook" class="vertical-align nav-social"><img src="img/header/fb.png" alt="facebook"></a></li>
-                        <li><a href="instagram" class="vertical-align nav-social"><img src="img/header/instagram.png" alt="instagram"></a></li>
+                        <li><a href="https://www.facebook.com/pondeponderosa" target="_blank" class="vertical-align nav-social"><img src="img/header/fb.png" alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" class="vertical-align nav-social"><img src="img/header/instagram.png" alt="instagram"></a></li>
                     </ul>
                 </div>
             </div>

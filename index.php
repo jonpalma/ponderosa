@@ -50,7 +50,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <section class="preproductos" id="preproductos">
     <div class="container preproducto-img">
-        <img src="img/preproductos/bodegon.png" alt="">
+        <img class="fadein" src="img/preproductos/bodegon.png" alt="">
     </div>
     <div class="bottom-background">
         <img src="img/preproductos/madera.jpg" alt="">
@@ -241,8 +241,8 @@
             <div class="col-sm-3 text-center left-side">
                 <img src="img/contactanos/logo.png" alt="">
                 <div class="social">
-                    <a href=""><img src="img/contactanos/fb.png" alt=""></a>
-                    <a href=""><img src="img/contactanos/instagram.png" alt=""></a>
+                    <a href="https://www.facebook.com/pondeponderosa" target="_blank"><img src="img/contactanos/fb.png" alt=""></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/contactanos/instagram.png" alt=""></a>
                 </div>
             </div>
             <div class="col-sm-6 middle"></div>
@@ -257,9 +257,9 @@
                     Teléfono:<br />
                     01 614 439 0100 Ext 7530
                 </p>
-                <p class="web">
-                    contactoponderosa.com.mx
-                </p>
+                <a href="mailto:contacto@ponderosa.com.mx"><p class="web">
+                    contacto@ponderosa.com.mx
+                </p></a>
             </div>
         </div>
     </div>
