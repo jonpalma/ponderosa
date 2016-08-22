@@ -22,12 +22,12 @@
                     <ul class="nav navbar-nav">
                         <li><a href="#banner" class="smoothScroll vertical-align nav-padd">INICIO</a></li>
                         <li><a href="#nosotros" class="smoothScroll vertical-align nav-padd">NOSOTROS</a></li>
-                        <li><a href="#preproductos" class="smoothScroll vertical-align nav-padd">PRODUCTOS</a></li>
-                        <li><a href="#banner" class="smoothScroll vertical-align nav-logo"><img src="img/logo/logoNavbar.png" alt="logo"></a></li>
+                        <li><a href="#productos" class="smoothScroll vertical-align nav-padd">PRODUCTOS</a></li>
+                        <li><a href="#banner" class="smoothScroll vertical-align nav-logo"><img src="img/header/logoNavbar.png" alt="logo"></a></li>
                         <li><a href="#recetas" class="smoothScroll vertical-align nav-padd">RECETAS</a></li>
                         <li><a href="#contactanos" class="smoothScroll vertical-align nav-padd">CONTACTOS</a></li>
-                        <li><a href="facebook" class="vertical-align nav-social"><img src="img/social/fb.png" alt="facebook"></a></li>
-                        <li><a href="instagram" class="vertical-align nav-social"><img src="img/social/instagram.png" alt="instagram"></a></li>
+                        <li><a href="facebook" class="vertical-align nav-social"><img src="img/header/fb.png" alt="facebook"></a></li>
+                        <li><a href="instagram" class="vertical-align nav-social"><img src="img/header/instagram.png" alt="instagram"></a></li>
                     </ul>
                 </div>
             </div>

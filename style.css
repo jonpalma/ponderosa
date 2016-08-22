@@ -10,10 +10,9 @@ Text Domain: Mixen Communication & Web Technology
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,400);
 @import 'https://fonts.googleapis.com/css?family=Lato';
-
-@import 'https://fonts.googleapis.com/css?family=Montserrat';
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 @import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 @font-face {
     font-family: 'Champagne&LimousinesBold';
@@ -103,7 +102,6 @@ body {
     font-size: 14px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-
     display: inline-block;
 }
 
@@ -114,13 +112,11 @@ body {
 }
 
 .navbar .navbar-nav .nav-padd {
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-right: calc(100% / 7);
 }
 
 .navbar .navbar-nav .nav-logo img {
-    height: 80px;
-    max-height: 100%;
+    max-height: 90%;
 }
 
 .navbar .navbar-nav .nav-social {
@@ -168,7 +164,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: #2f2f2f;
-    padding: 20px 20px 20px 20px;
+    padding: 0 20px;
     margin-top: 20px;
 }
 
@@ -184,20 +180,20 @@ body {
 /* PRE-PRODUCTOS */
 .preproductos {
     position: relative;
-    margin-top: 340px;
 }
 
-.preproductos .preproductos-img .top-background {
-    position: absolute;
-    z-index: 1;
-    bottom: 90px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-width: 90%;
+.preproductos .container {
+    margin-top: -12vw;
 }
 
-.preproductos .bottom-background {
+.preproductos .container img {
+    position: relative;
+    bottom: -12vw;
+    max-width:100%;
+    max-height:100%;
+}
+
+.preproductos .bottom-background img {
     min-height: 100%;
     min-width: 100%;
     max-width: 100%;
@@ -210,55 +206,68 @@ body {
 }
 
 .productos .container .encabezado p {
+    margin-top: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 38px;
     color: #505050;
 }
 
+.productos .container .encabezado img {
+    height: 100px;
+    width: 100px;
+}
+
+.productos .container .row {
+    margin-top: 6vw;
+}
+
 .productos .container .row .col-sm-2 .img-container {
     position: relative;
-    height: 280px;
+    height: 20vw;
+}
+
+.productos .container .row .col-sm-2 .img-container .responsive {
+    display: none;
 }
 
 .productos .container .row .col-sm-2 .img-container img {
     position: absolute;
-    left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    width: 18vw;
     max-width: none;
-    width: 180%;
+    transform: translate(-50%,-50%);
     transition: width 300ms ease;
-    cursor: pointer;
-    border: 25px solid #fff;
+    border: 1.5vw solid #fff;
     border-radius: 50%;
+    cursor: pointer;
     box-shadow: 1px 2px 32px 0.00px rgba(35, 31, 32, 0.41);
 }
-
 
 .productos .container .row .col-sm-2 .img-container.active::after {
     content: '';
     position: absolute;
     display: block;
-    height: 32px;
-    width: 32px;
+    height: 2vw;
+    width: 2vw;
     left: 0;
     right: 0;
-    border-radius: 50%;
     margin: 0 auto;
-    bottom: -35px;
+    bottom: -1.5vw;
+    border-radius: 50%;
     background-color: #ee2e24;
     z-index: 10;
 }
 
 .productos .container .row .col-sm-2 .img-container.active img,
 .productos .container .row .col-sm-2 .img-container img:hover {
-    width: 200%;
+    width: 22vw;
     z-index: 10;
 }
 
 .productos .container .lbproductos {
-    padding-top: 100px;
+    margin-top: 6vw;
 }
 
 .productos .container .lbproductos p {
@@ -356,20 +365,32 @@ body {
 
 .recetas .bckgnd {
     background:
-        linear-gradient(135deg, transparent 10px, #fff 0) top left,
-        linear-gradient(225deg, transparent 10px, #fff 0) top right,
-        linear-gradient(315deg, transparent 10px, #fff 0) bottom right,
-        linear-gradient(45deg, transparent 10px, #fff 0) bottom left;
+        linear-gradient(135deg, transparent 15px, #fff 0) top left,
+        linear-gradient(225deg, transparent 15px, #fff 0) top right,
+        linear-gradient(315deg, transparent 15px, #fff 0) bottom right,
+        linear-gradient(45deg, transparent 15px, #fff 0) bottom left;
     background-size: 51% 51%;
     background-repeat: no-repeat;
     background-image:
-        radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #fff 15px),
-        radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #fff 15px),
-        radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #fff 15px),
-        radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #fff 15px);
+        radial-gradient(circle at 0 0, rgba(204,0,0,0) 25px, #fff 15px),
+        radial-gradient(circle at 100% 0, rgba(204,0,0,0) 25px, #fff 15px),
+        radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 25px, #fff 15px),
+        radial-gradient(circle at 0 100%, rgba(204,0,0,0) 25px, #fff 15px);
     height: 450px;
     max-width: 400px;
     margin: 0 auto;
+    position: relative;
+}
+
+.recetas .bckgnd:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 10px);
+    border: 2px solid #ffffff;
 }
 
 .recetas .item {
@@ -383,7 +404,6 @@ body {
 
 /* CONTACTANOS */
 .contactanos {
-    background-size: cover;
     position: relative;
 }
 
@@ -407,17 +427,11 @@ body {
 }
 
 .contactanos .contactanos-bottom .form-container .col-sm-3 {
-    display: block;
-    left: 0;
-    right: 0;
     top: 25%;
-    margin: 0 auto;
-    
-    vertical-align: middle;
-    display: table-cell;
 }
 
 .contactanos .contactanos-bottom .form-container .left-side img {
+    max-height: 100%;
     max-width: 100%;
 }
 
@@ -431,27 +445,25 @@ body {
 }
 
 .contactanos .contactanos-bottom .form-container .right-side p {
+    padding-left: 20px;
     max-width: 100%;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     color: #ffffff;
-    padding-left: 20px;
 }
 
 .contactanos .contactanos-bottom .form-container .right-side p::before {
-    content: '';
-    position: absolute;
-    left: 5px;
     background-size: contain!important;
+    position: absolute;
     display: block;
+    content: '';
     height: 24px;
     width: 24px;
+    left: 5px;
 }
 
 .contactanos .contactanos-bottom .form-container .right-side .address::before {
-
     background: url(img/contactanos/pin.png) no-repeat center center;
-
 }
 
 .contactanos .contactanos-bottom .form-container .right-side .phone::before {
@@ -469,23 +481,25 @@ body {
     z-index: 10;
 }
 
-.contactanos .col-sm-6:not(.middle) {
+.contactanos .container.form .col-sm-6 {
     position: relative;
     max-width: 100%;
     height: auto;
     padding: 0;
 }
 
-.contactanos .col-sm-6 .container-size {
+.contactanos .container.form .col-sm-6 .container-size {
     background-color: #ffffff;
     max-width: 500px;
-    padding: 30px;
+    padding: 5px;
     margin:  0 auto;
 }
 
-.contactanos .col-sm-6:not(.middle) h2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.contactanos .container.form .col-sm-6 h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     font-size: 38px;
@@ -493,36 +507,38 @@ body {
     text-align: center;
 }
 
-.contactanos .col-sm-6:not(.middle) label, input, textarea {
+.contactanos .container.form .col-sm-6 label, input, textarea {
+    width: 90%;
     outline: none;
     margin-top: 10px;
-    width: 100%
 }
 
-.contactanos .col-sm-6:not(.middle) label {
+.contactanos .container.form .col-sm-6 label {
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
     font-weight: 700;
+    font-size: 14px;
     color: #7f7f7f;
 }
 
-.contactanos .col-sm-6:not(.middle) input[type=text], input[type=email], textarea {
+.contactanos .container.form .col-sm-6 input[type=text], input[type=email], textarea {
     min-height: 40px;
-    border-radius: 7px;
-    border-color: #c2c2c2;
     border: 1px solid;
+    border-color: #c2c2c2;
+    border-radius: 7px;
 }
 
-.contactanos .col-sm-6:not(.middle) input[type=submit] {
+.contactanos .container.form .col-sm-6 input[type=submit] {
     position: relative;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 100px;
     height: 40px;
-    border-radius: 7px;
-    border-color: #c2c2c2;
-    background-color: #ffffff;
     border: 1px solid;
+    border-color: #c2c2c2;
+    border-radius: 7px;
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -590,9 +606,7 @@ footer .footer-rights a:hover {
 
 /*** RESPONSIVE ****/
 @media(max-width: 1200px) {
-    .preproductos {
-        margin-top: 30vw
-    }
+
 }
 
 @media(max-width: 992px) {
@@ -600,12 +614,170 @@ footer .footer-rights a:hover {
 }
 
 @media(max-width: 767px) {
+    /* NAVBAR */
+    .navbar {
+        height: auto;
+        width: 100%;
+        background-color: rgba(0,0,0,.5);
+        margin-bottom: 0;
+        border: none;
+    }
+
+    .navbar .navbar-nav {
+        float: none;
+        text-align: center;
+        height: 80px;
+        display: flex;
+    }
+
+    .navbar .container-fluid {
+        max-width: 1170px;
+    }
+
+    .navbar .navbar-nav > li {
+        height: 80px;
+        border: none;
+        display: inline-block;
+        float: none;
+        flex: auto;
+    }
+
+    .navbar .navbar-nav > li > a {
+        color: #ffffff!important;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+    }
+
+    .navbar.navbar-fixed-top .navbar-nav > li.active > a,
+    .navbar.navbar-fixed-top .navbar-nav > li:hover > a {
+        background-color: transparent;
+        color: #d9d9d9!important;
+    }
+
+    .navbar .navbar-nav .nav-padd {
+        padding-right: calc(100% / 7);
+    }
+
+    .navbar .navbar-nav .nav-logo {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-social {
+        display: none;
+    }
+
+
+    /* NOSOTROS */
+    .nosotros p {
+        font-size: 22px;
+    }
+
+    .nosotros img {
+        max-height: 70%;
+        max-width: 70%;
+    }
+
+
+    /* PRODUCTOS */
+    .productos .container .encabezado p {
+        font-size: 28px;
+    }
+
+    .productos .container .row {
+        margin-top: 2vw;
+    }
+
+    .productos .container .row .col-sm-2 .img-container {
+        height: 20vw;
+        margin-top: 50px;
+    }
+
+    .productos .container .row .col-sm-2 .img-container .responsive {
+        display: none;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        bottom: -30px;
+        font: italic 700 18px 'Roboto', sans-serif;
+        color: #ee2e24;
+        z-index: 10;
+    }
+
+    .productos .container .row .col-sm-2 .img-container img {
+        width: 20vw;
+        border: 1.5vw solid #fff;
+    }
+
+    .productos .container .row .col-sm-2 .img-container.active::after {
+        display: none;
+    }
+
+    .productos .container .row .col-sm-2 .img-container.active img,
+    .productos .container .row .col-sm-2 .img-container img:hover {
+        width: 23vw;
+        z-index: 9;
+    }
+
+    .productos .container .row .col-sm-2 .img-container .responsive {
+        position: absolute;
+        display: block;
+    }
+
+    .productos .container .lbproductos p {
+        display: none;
+    }
+
+
+    /* RECETAS */
+    .recetas .container h3 {
+        font-size: 28px;
+    }
+
+    .recetas h5 {
+        font-size: 18px;
+    }
+
+    .recetas .bckgnd {
+        margin-top: 30px;
+    }
+
+
+    /* CONTACTANOS */
     .contactanos .container.form {
         position: relative;
         transform: none;
         top: 0;
     }
+
+    .contactanos .contactanos-bottom {
+        height: 550px;
+    }
+
+    .contactanos .contactanos-bottom .form-container .right-side p::before {
+        background-size: contain!important;
+        position: absolute;
+        display: inline-block;
+        content: '';
+        height: 20px;
+        width: 20px;
+        left: auto;
+        margin-left: -30px;
+    }
+
+    .contactanos .contactanos-bottom .form-container .col-sm-3 {
+        position: relative;
+    }
+
+    .contactanos .contactanos-bottom .form-container .left-side {
+        position: relative;
+        text-align: center;
+    }
+
+    .contactanos .contactanos-bottom .form-container .right-side {
+        margin-top: 30px;
+        position: relative;
+        text-align: center;
+    }
 }
-
-
-

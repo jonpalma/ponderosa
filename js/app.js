@@ -6,3 +6,11 @@ $('.productos .img-container').click(function() {
     $(this).addClass('active');
     $($lb).removeClass('hidden');
 });
+
+/*
+if ($(window).width() < 767) {
+   $('.productos .container .row .img-container p').removeClass('hidden');
+}
+else {
+   $('.productos .container .row .img-container p').addClass('hidden');
+}*/
