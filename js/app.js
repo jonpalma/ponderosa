@@ -1,8 +1,5 @@
 $('.productos .img-container').click(function() {
-    
-    $(this).prev().find('img').css({zIndex:'9'});
-    
-    console.log($(this).prev().find('img'));
+    //$(this).prev().find('img').css("zIndex", 9);
     $num=$(this).index('.productos .img-container');
     $lb='#label-'+$num;
     $('.productos .img-container').removeClass('active');
