@@ -1,3 +1,4 @@
+<?php $page = 'index'; ?>
 <?php include('header.php'); ?>
 <div class="wrapper index" id="index">
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -123,19 +124,19 @@
     <!--/* RECETAS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="recetas parallax-container" id="recetas">
+    <section class="receta parallax-container" id="receta">
         <div class="parallax">
             <img src="img/recetas/bg.jpg" alt="Parallax">
         </div>
         <div class="container text-center spacing">
             <img class="icono" src="img/recetas/logo.png" alt="">
             <h3>RECETAS PONDEROSA</h3>
-            <div id="carousel-recetas" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div id="carousel-receta" class="carousel slide" data-ride="carousel" data-interval="false">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#carousel-recetas" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-recetas" data-slide-to="1"></li>
-                    <li data-target="#carousel-recetas" data-slide-to="2"></li>
+                    <li data-target="#carousel-receta" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-receta" data-slide-to="1"></li>
+                    <li data-target="#carousel-receta" data-slide-to="2"></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -148,7 +149,7 @@
                                     <p class="white">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     </p>
-                                    <a href="#">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -158,7 +159,7 @@
                                     <p class="white">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     </p>
-                                    <a href="#">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -168,7 +169,7 @@
                                     <p class="white">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     </p>
-                                    <a href="#">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +183,7 @@
                                     <p class="white">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     </p>
-                                    <a href="#">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -192,7 +193,7 @@
                                     <p class="white">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     </p>
-                                    <a href="#">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -202,7 +203,7 @@
                                     <p class="white">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     </p>
-                                    <a href="#">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                         </div>
