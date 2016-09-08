@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="img/png" href="img/favicon.ico"/>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <title>Ponderosa</title>
@@ -25,8 +26,8 @@
                         <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#nosotros" class="smoothScroll vertical-align nav-padd">NOSOTROS</a></li>
                         <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#productos" class="smoothScroll vertical-align nav-padd">PRODUCTOS</a></li>
                         <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#index" class="smoothScroll vertical-align nav-logo"><img src="img/header/logoNavbar.png" alt="logo"></a></li>
-                        <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#recetas" class="smoothScroll vertical-align nav-padd">RECETAS</a></li>
-                        <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#contactanos" class="smoothScroll vertical-align nav-padd">CONTACTOS</a></li>
+                        <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#receta" class="smoothScroll vertical-align nav-padd">RECETAS</a></li>
+                        <li><a href="<?php if($page != 'index') { echo 'index.php'; }?>#contactanos" class="smoothScroll vertical-align nav-padd">CONTÁCTANOS</a></li>
                         <li><a href="https://www.facebook.com/pondeponderosa" target="_blank" class="vertical-align nav-social"><img src="img/header/fb.png" alt="facebook"></a></li>
                         <li><a href="https://www.instagram.com/" target="_blank" class="vertical-align nav-social"><img src="img/header/instagram.png" alt="instagram"></a></li>
                     </ul>

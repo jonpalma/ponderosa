@@ -17,7 +17,12 @@
                 </div>
                 <div class="item">
                     <div class="img-container">
-                        <img src="img/banner/1.jpg" alt="Banner">
+                        <img src="img/banner/2.jpg" alt="Banner">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-container">
+                        <img src="img/banner/3.jpg" alt="Banner">
                     </div>
                 </div>
             </div>
@@ -43,7 +48,11 @@
                 <img src="img/nosotros/logo.png" alt="">
             </div>               
             <div class="text-center">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <p>
+                    Desde hace 40 años Empacadora Ponderosa es una empresa de alimentos 
+                    comprometida con la calidad y servicio para satisfacer los gustos y 
+                    necesidades de nuestros consumidores.
+                </p>
             </div>        
         </div>
     </section>
@@ -111,11 +120,11 @@
             </div>
             <div class="lbproductos text-center">
                 <p id="label-0" class="">SALCHICHA PARA ASAR</p>
-                <p id="label-1" class="hidden">PRODUCTO 1</p>
-                <p id="label-2" class="hidden">PRODUCTO 2</p>
-                <p id="label-3" class="hidden">PRODUCTO 3</p>
-                <p id="label-4" class="hidden">PRODUCTO 4</p>
-                <p id="label-5" class="hidden">PRODUCTO 5</p>
+                <p id="label-1" class="hidden">SALCHICHA VIENA</p>
+                <p id="label-2" class="hidden">JAMÒN AMERICANO</p>
+                <p id="label-3" class="hidden">QUESO PANELA</p>
+                <p id="label-4" class="hidden">SALCHICHA POLAKA</p>
+                <p id="label-5" class="hidden">PASTEL PIMIENTO</p>
             </div>
         </div>
     </section>
@@ -144,32 +153,32 @@
                         <div class="row no-margin text-center">
                             <div class="col-sm-4">
                                 <div class="bckgnd">
-                                    <img src="img/recetas/receta1.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">CARNE ASADA CON PONDEROSA</h5>
+                                    <img src="img/recetas/desayuno1.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">SÁNDWICH DE JAMÓN</h5>
                                     <p class="white">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        La manera mas fácil y practica para empezar el día.
                                     </p>
-                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-desayuno1.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="bckgnd">
-                                    <img src="img/recetas/receta2.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">SALCHICHA AZA RELLENA</h5>
+                                    <img src="img/recetas/desayuno2.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">OMELETTE DE JAMÓN CON VERDURAS</h5>
                                     <p class="white">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una deliciosa forma de preparar huevos para el desayuno.
                                     </p>
-                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-desayuno2.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="bckgnd">
-                                    <img src="img/recetas/receta3.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">SALCHICHA CON TOCINO</h5>
+                                    <img src="img/recetas/desayuno3.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">HUEVOS BENEDICTINOS</h5>
                                     <p class="white">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Delicioso desayuno para cualquier día de la semana.
                                     </p>
-                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-desayuno3.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                         </div>
@@ -178,38 +187,73 @@
                         <div class="row no-margin text-center">
                             <div class="col-sm-4">
                                 <div class="bckgnd" id="test">
-                                    <img src="img/recetas/receta1.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">CARNE ASADA CON PONDEROSA</h5>
+                                    <img src="img/recetas/comida1.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">CALABACITAS RELLENAS DE SALCHICHA</h5>
                                     <p class="white">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una receta sencilla y fácil de preparar ideal como plato fuerte.
                                     </p>
-                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-comida1.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="bckgnd">
-                                    <img src="img/recetas/receta2.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">SALCHICHA AZA RELLENA</h5>
+                                    <img src="img/recetas/comida2.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">SALCHICHAS CON NOPALES</h5>
                                     <p class="white">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una rica receta muy sencilla, para la hora de la comida.
                                     </p>
-                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-comida2.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="bckgnd">
-                                    <img src="img/recetas/receta3.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">SALCHICHA CON TOCINO</h5>
+                                    <img src="img/recetas/comida3.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">TORNILLOS CON SALCHICHA</h5>
                                     <p class="white">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una pasta deliciosa y sencilla de preparar.
                                     </p>
-                                    <a href="<?php if($page != 'recetas') { echo 'recetas.php'; }?>#index">LEER MÁS</a>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-comida3.php'; }?>#index">LEER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row no-margin text-center">
+                            <div class="col-sm-4">
+                                <div class="bckgnd" id="test">
+                                    <img src="img/recetas/cena1.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">TORTILLA DE BERENJENA Y JAMÒN</h5>
+                                    <p class="white">
+                                        Una tortilla sencilla de preparar para una cena ligera.
+                                    </p>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-cena1.php'; }?>#index">LEER MÁS</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="bckgnd">
+                                    <img src="img/recetas/cena2.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">ROLLITOS DE JAMÒN</h5>
+                                    <p class="white">
+                                        Unos rollitos de jamón una botana fácil para deleitar a la familia.
+                                    </p>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-cena2.php'; }?>#index">LEER MÁS</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="bckgnd">
+                                    <img src="img/recetas/cena3.png" alt="Receta" class="img-responsive center-block">
+                                    <h5 class="white">BANDERILLAS HORNEADAS</h5>
+                                    <p class="white">
+                                        Estas banderillas se pueden freír, en esta versión se preparan al horno para evitar la grasa.
+                                    </p>
+                                    <a href="<?php if($page != 'recetas') { echo 'detalle-cena3.php'; }?>#index">LEER MÁS</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a class="bottom-button" href="<?php if($page == 'index') { echo 'recetas.php'; }?>#index">VER MÁS RECETAS</a>
         </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -259,11 +303,13 @@
                     </p>
                     <p class="phone">
                         Teléfono:<br />
-                        01 614 439 0100 Ext 7530
+                        (614)439.0100 Ext 7530
                     </p>
-                    <a href="mailto:contacto@ponderosa.com.mx"><p class="web">
-                        contacto@ponderosa.com.mx
-                        </p></a>
+                    <a href="mailto:contacto@ponderosa.com.mx">
+                        <p class="web">
+                            contacto@ponderosa.com.mx
+                        </p>
+                    </a>
                 </div>
             </div>
         </div>

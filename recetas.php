@@ -31,131 +31,64 @@
                         <div class="row no-margin text-center">
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno1.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno1.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
                                         SÁNDWICH DE JAMÓN
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        La manera mas fácil y practica para empezar el día.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
+                                        <p class="">15 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-desayuno1.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno2.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno2.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        PAPAS EN GAJOS Y SALCHICHA
+                                        OMELETTE DE JAMÓN CON VERDURAS
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una deliciosa forma de preparar huevos para el desayuno.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
+                                        <p class="">25 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-desayuno2.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno3.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno3.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        SALCHICHA CON HUEVO
+                                        HUEVOS BENEDICTINOS
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Delicioso desayuno para cualquier día de la semana.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
+                                        <p class="">15 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row no-margin text-center">
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno1.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        SÁNDWICH DE JAMÓN
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno2.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        PAPAS EN GAJOS Y SALCHICHA
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/desayuno3.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        SALCHICHA CON HUEVO
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer align-center">
-                                    <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-desayuno3.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
@@ -189,131 +122,64 @@
                         <div class="row no-margin text-center">
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/comida1.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/comida1.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        CARNE ASADA CON PONDEROSA
+                                        CALABACITAS RELLENAS DE SALCHICHA
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una receta sencilla y fácil de preparar ideal como plato fuerte.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">15 min.</p>
+                                        <p class="">35 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-comida1.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/comida2.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/comida2.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        SALCHICHA AZA RELLENA
+                                        SALCHICHAS CON NOPALES
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una rica receta muy sencilla, para la hora de la comida.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
+                                        <p class="">45 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-comida2.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/comida3.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/comida3.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        SALCHICHA CON TOCINO
+                                        TORNILLOS CON SALCHICHA
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una pasta deliciosa y sencilla de preparar.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
+                                        <p class="">35 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row no-margin text-center">
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/comida1.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        CARNE ASADA CON PONDEROSA
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">15 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/comida2.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        SALCHICHA AZA RELLENA
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/comida3.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        SALCHICHA CON TOCINO
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-comida3.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
@@ -347,35 +213,35 @@
                         <div class="row no-margin text-center">
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/cena1.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/cena1.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        SALCHICHAS AL PASTOR
+                                        TORTILLA DE BERENJENA Y JAMÒN
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Una tortilla sencilla de preparar para una cena ligera.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">15 min.</p>
+                                        <p class="">30 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-cena1.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/cena2.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/cena2.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        SPAGUETTI CON SALCHICHAS
+                                        ROLLITOS DE JAMÒN
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Unos rollitos de jamón una botana fácil para deleitar a la familia.
                                     </p>
                                 </div>
                                 <div class="footer">
@@ -383,95 +249,28 @@
                                         <p class="">20 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-cena2.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/cena3.png" alt="">
+                                    <img class="vertical-align" src="img/recetas-page/receta/cena3.jpg" alt="">
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        ARROZ CON SALCHICHAS
+                                        BANDERILLAS HORNEADAS
                                     </p>
                                     <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Estas banderillas se pueden freír, en esta versión se preparan al horno para evitar la grasa.
                                     </p>
                                 </div>
                                 <div class="footer">
                                     <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
+                                        <p class="">30 min.</p>
                                     </div>
                                     <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="row no-margin text-center">
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/cena1.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        SALCHICHAS AL PASTOR
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">15 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/cena2.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        SPAGUETTI CON SALCHICHAS
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="image-container">
-                                    <img class="vertical-align" src="img/recetas-page/receta/cena3.png" alt="">
-                                </div>
-                                <div class="descripcion">
-                                    <p class="title">
-                                        ARROZ CON SALCHICHAS
-                                    </p>
-                                    <p class="desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>
-                                </div>
-                                <div class="footer">
-                                    <div class="col-sm-6 time">
-                                        <p class="">20 min.</p>
-                                    </div>
-                                    <div class="col-sm-6 link">
-                                        <a href="<?php if($page == 'recetas') { echo 'detalle-receta.php'; }?>#">LEER MÁS</a>
+                                        <a href="<?php if($page == 'recetas') { echo 'detalle-cena3.php'; }?>#">LEER MÁS</a>
                                     </div>
                                 </div>
                             </div>

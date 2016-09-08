@@ -149,6 +149,7 @@ body {
 
 .index .banner .carousel .img-container {
     position: relative;
+    overflow: hidden;
 }
 
 .index .banner .carousel .item img {
@@ -431,6 +432,34 @@ body {
 .index .receta .carousel-indicators li {
     background-color: #ee2e24;
     border: 1px solid #fff;
+}
+
+.index .receta .bottom-button {
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 30px;
+    line-height: 40px;
+    background-color: #ffffff;
+    color: #505050;
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none!important;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.index .receta a:hover {
+    background-color: #1a1a1a;
+    color: #fff;
 }
 
 /* CONTACTANOS */
