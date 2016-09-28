@@ -4,7 +4,7 @@ $(document).ready(function () {
 });
 
 function initialize() {
-    if( $('#googleMap').attr('position') == 'contactanos' ) {
+    if( $('#googleMap').data('position') == 'contactanos' ) {
         var $lat = 25.733913,
             $long = -100.314735,
             $title = 'Ponderosa';

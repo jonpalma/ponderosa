@@ -217,7 +217,7 @@
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        TORTILLA DE BERENJENA Y JAMÒN
+                                        TORTILLA DE BERENJENA Y JAMÓN
                                     </p>
                                     <p class="desc">
                                         Una tortilla sencilla de preparar para una cena ligera.
@@ -238,7 +238,7 @@
                                 </div>
                                 <div class="descripcion">
                                     <p class="title">
-                                        ROLLITOS DE JAMÒN
+                                        ROLLITOS DE JAMÓN
                                     </p>
                                     <p class="desc">
                                         Unos rollitos de jamón una botana fácil para deleitar a la familia.

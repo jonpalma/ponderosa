@@ -24,7 +24,7 @@
         <div class="container text-center light-spacing">
             <div class="top-title">
                 <div class="linea"></div>
-                <h2>TORTILLA DE BERENJENA Y JAMÒN</h2>
+                <h2>TORTILLA DE BERENJENA Y JAMÓN</h2>
             </div>
             <div class="image-container top-image">
                 <img src="img/recetas-page/receta/cena-top1.jpg" alt="">
@@ -100,7 +100,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-7">
-                                    <h3>ROLLITOS DE JAMÒN</h3>
+                                    <h3>ROLLITOS DE JAMÓN</h3>
                                     <P>Unos rollitos de jamón una botana fácil para deleitar a la familia.</P>
                                     <P class="time">20 min.</P>
                                 </div>

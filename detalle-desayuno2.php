@@ -98,7 +98,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-7">
-                                    <h3>ROLLITOS DE JAMÒN</h3>
+                                    <h3>ROLLITOS DE JAMÓN</h3>
                                     <P>Unos rollitos de jamón una botana fácil para deleitar a la familia.</P>
                                     <P class="time">20 min.</P>
                                 </div>

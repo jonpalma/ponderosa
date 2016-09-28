@@ -6,7 +6,7 @@
     <!--/* BANNER  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner" id="banner">
+    <div class="banner" id="banner">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
@@ -36,13 +36,13 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* Nosotros  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="nosotros" id="nosotros">
+    <div class="nosotros" id="nosotros">
         <div class="container spacing">
             <div class="text-center">
                 <img src="img/nosotros/logo.png" alt="">
@@ -55,26 +55,26 @@
                 </p>
             </div>        
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* PRE-PRODUCTOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="preproductos" id="preproductos">
+    <div class="preproductos" id="preproductos">
         <div class="container preproducto-img">
             <img class="fadein" src="img/preproductos/bodegon.png" alt="">
         </div>
         <div class="bottom-background">
             <img src="img/preproductos/madera.jpg" alt="">
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* PRODUCTOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="productos" id="productos">
+    <div class="productos" id="productos">
         <div class="container spacing">
             <div class="encabezado text-center">
                 <a><img src="img/productos/logo10.png" alt=""></a>
@@ -121,19 +121,19 @@
             <div class="lbproductos text-center">
                 <p id="label-0" class="">SALCHICHA PARA ASAR</p>
                 <p id="label-1" class="hidden">SALCHICHA VIENA</p>
-                <p id="label-2" class="hidden">JAMÒN AMERICANO</p>
+                <p id="label-2" class="hidden">JAMÓN AMERICANO</p>
                 <p id="label-3" class="hidden">QUESO PANELA</p>
                 <p id="label-4" class="hidden">SALCHICHA POLAKA</p>
                 <p id="label-5" class="hidden">PASTEL PIMIENTO</p>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* RECETAS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="receta parallax-container" id="receta">
+    <div class="receta parallax-container" id="receta">
         <div class="parallax">
             <img src="img/recetas/bg.jpg" alt="Parallax">
         </div>
@@ -186,7 +186,7 @@
                     <div class="item">
                         <div class="row no-margin text-center">
                             <div class="col-sm-4">
-                                <div class="bckgnd" id="test">
+                                <div class="bckgnd">
                                     <img src="img/recetas/comida1.png" alt="Receta" class="img-responsive center-block">
                                     <h5 class="white">CALABACITAS RELLENAS DE SALCHICHA</h5>
                                     <p class="white">
@@ -220,9 +220,9 @@
                     <div class="item">
                         <div class="row no-margin text-center">
                             <div class="col-sm-4">
-                                <div class="bckgnd" id="test">
+                                <div class="bckgnd">
                                     <img src="img/recetas/cena1.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">TORTILLA DE BERENJENA Y JAMÒN</h5>
+                                    <h5 class="white">TORTILLA DE BERENJENA Y JAMÓN</h5>
                                     <p class="white">
                                         Una tortilla sencilla de preparar para una cena ligera.
                                     </p>
@@ -232,7 +232,7 @@
                             <div class="col-sm-4">
                                 <div class="bckgnd">
                                     <img src="img/recetas/cena2.png" alt="Receta" class="img-responsive center-block">
-                                    <h5 class="white">ROLLITOS DE JAMÒN</h5>
+                                    <h5 class="white">ROLLITOS DE JAMÓN</h5>
                                     <p class="white">
                                         Unos rollitos de jamón una botana fácil para deleitar a la familia.
                                     </p>
@@ -255,17 +255,16 @@
             </div>
             <a class="bottom-button" href="<?php if($page == 'index') { echo 'recetas.php'; }?>#index">VER MÁS RECETAS</a>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* CONTACTANOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="contactanos" id="contactanos">
+    <div class="contactanos" id="contactanos">
         <div>
-            <div class="googleMap" id="googleMap" position="contactanos"></div>
+            <div class="googleMap" id="googleMap" data-position="contactanos"></div>
         </div>
-
         <div class="container form vertical-align">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
@@ -313,6 +312,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </div>
 <?php include('footer.php'); ?>

@@ -101,7 +101,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-7">
-                                    <h3>TORTILLA DE BERENJENA Y JAMÒN</h3>
+                                    <h3>TORTILLA DE BERENJENA Y JAMÓN</h3>
                                     <P>Una tortilla sencilla de preparar para una cena ligera.</P>
                                     <P class="time">30 min.</P>
                                 </div>

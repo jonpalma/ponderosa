@@ -24,7 +24,7 @@
         <div class="container text-center light-spacing">
             <div class="top-title">
                 <div class="linea"></div>
-                <h2>ROLLITOS DE JAMÒN</h2>
+                <h2>ROLLITOS DE JAMÓN</h2>
             </div>
             <div class="image-container top-image">
                 <img src="img/recetas-page/receta/cena-top2.jpg" alt="">
