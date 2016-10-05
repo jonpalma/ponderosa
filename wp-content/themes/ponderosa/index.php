@@ -264,27 +264,18 @@
         <div>
             <div class="googleMap" id="googleMap" position="contactanos"></div>
         </div>
-
         <div class="container form vertical-align">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <div class="container-size text-center">
                     <h2><?php echo CFS()->get('contactanos_title');?></h2>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="">
-                    <label>Correo</label>
-                    <input type="email" placeholder="">
-                    <label>Mensaje</label>
-                    <textarea name="mssg" id="mssg" cols="30" rows="3" placeholder=""></textarea>
-                    <div class="text-center">
-                        <input type="submit" value="Enviar">
-                    </div>
+                    <?php echo do_shortcode('[contact-form-7 id="4" title="Formulario de contacto 1"]') ?>
                 </div>
             </div>
             <div class="col-sm-3"></div>
         </div>
         <div class="contactanos-bottom">
-            <div class="container form-container">
+            <div class="container">
                 <div class="col-sm-3 text-center left-side">
                     <img src="<?php echo bloginfo('template_url').'/'; ?>img/contactanos/logo.png" alt="">
                     <div class="social">

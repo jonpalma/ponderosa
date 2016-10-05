@@ -25,6 +25,14 @@ Text Domain: Mixen Communication & Web Technology
 }
 
 /* GENERAL STYLES */
+html {
+    margin-top: 0!important;
+}
+
+#wpadminbar {
+    margin-top: 80px;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -494,34 +502,38 @@ body {
     background-size: cover;
 }
 
-.index .contactanos .contactanos-bottom .form-container {
+.index .contactanos .contactanos-bottom .container {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 80%;
-    z-index: 10;
 }
 
-.index .contactanos .contactanos-bottom .form-container .col-sm-3 {
+.index .contactanos .contactanos-bottom .container .col-sm-3 {
     top: 25%;
 }
 
-.index .contactanos .contactanos-bottom .form-container .left-side img {
+.index .contactanos .contactanos-bottom .container .left-side,
+.index .contactanos .contactanos-bottom .container .right-side {
+    z-index: 10;
+}
+
+.index .contactanos .contactanos-bottom .container .left-side img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.index .contactanos .contactanos-bottom .form-container .left-side .social {
+.index .contactanos .contactanos-bottom .container .left-side .social {
     margin-top: 25px;
 }
 
-.index .contactanos .contactanos-bottom .form-container .left-side .social img {
+.index .contactanos .contactanos-bottom .container .left-side .social img {
     padding-right: 10px;
     padding-left: 10px;
 }
 
-.index .contactanos .contactanos-bottom .form-container .right-side p {
+.index .contactanos .contactanos-bottom .container .right-side p {
     padding-left: 20px;
     max-width: 100%;
     font-family: 'Lato', sans-serif;
@@ -529,11 +541,11 @@ body {
     color: #ffffff;
 }
 
-.index .contactanos .contactanos-bottom .form-container .right-side a {
+.index .contactanos .contactanos-bottom .container .right-side a {
     text-decoration: none!important;
 }
 
-.index .contactanos .contactanos-bottom .form-container .right-side p::before {
+.index .contactanos .contactanos-bottom .container .right-side p::before {
     background-size: contain!important;
     position: absolute;
     display: block;
@@ -543,15 +555,15 @@ body {
     left: 5px;
 }
 
-.index .contactanos .contactanos-bottom .form-container .right-side .address::before {
+.index .contactanos .contactanos-bottom .container .right-side .address::before {
     background: url(img/contactanos/pin.png) no-repeat center center;
 }
 
-.index .contactanos .contactanos-bottom .form-container .right-side .phone::before {
+.index .contactanos .contactanos-bottom .container .right-side .phone::before {
     background: url(img/contactanos/phone.png) no-repeat center center;
 }
 
-.index .contactanos .contactanos-bottom .form-container .right-side .web::before {
+.index .contactanos .contactanos-bottom .container .right-side .web::before {
     background: url(img/contactanos/email.png) no-repeat center center;
 }
 
@@ -1106,6 +1118,11 @@ footer .footer-rights a:hover {
 }
 
 @media(max-width: 767px) {
+    /* GENERAL STYLES */
+    #wpadminbar {
+        display: none;
+    }
+
     /* NAVBAR */
     .navbar {
         height: 50px;
