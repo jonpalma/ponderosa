@@ -64,88 +64,62 @@
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <!--/* PRE-PRODUCTOS  */-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="preproductos" id="preproductos">
-        <div class="container preproducto-img">
-            <img class="fadein" src="<?php echo bloginfo('template_url').'/'; ?>img/preproductos/bodegon.png" alt="">
-        </div>
-        <div class="bottom-background">
-            <img src="<?php echo bloginfo('template_url').'/'; ?>img/preproductos/madera.jpg" alt="">
-        </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
     <!--/* PRODUCTOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section class="productos" id="productos">
-        <div class="container spacing">
+        <div class="container">
             <div class="encabezado text-center">
                 <a><img src="<?php echo bloginfo('template_url').'/'; ?>img/productos/logo10.png" alt=""></a>
                 <p><?php echo CFS()->get('productos_title');?></p>
             </div>
-            <div class="row no-margin text-center">
-                <div class="row no-margin">
+            <div id="carousel-productos" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
                     <?php
                     $arrayProductos = CFS()->get('producto_array');
                     $arrayEnd = end($arrayProductos);
                     $counter = 0;
-                    foreach( $arrayProductos as $producto )
+                    foreach($arrayProductos as $producto)
                     {
-                        if($counter > 5)
-                        {
-                            return true;
-                        }
-                    ?>
-                    <div class="col-sm-2">
-                        <?php
                         if( $counter == 0 )
                         {
-                            echo '<div class="img-container active">';
+                            echo '<div class="item active">';
                         }
                         else
                         {
-                            echo '<div class="img-container">';
+                            echo '<div class="item">';
                         }
-                        ?>
-                        <img src="<?php echo $producto['producto_img']; ?>" alt="Productos" class="img-responsive center-block">
-                        <p class="responsive"><?php echo $producto['producto_name']; ?></p>
+                    ?>
+                    <div class="col-md-4 hidden-sm hidden-xs">
+                        <div class="img-container img-logo">
+                            <img src="<?php echo $producto['producto_logo']; ?>" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="img-container img-producto">
+                            <img src="<?php echo $producto['producto_img']; ?>" alt="">
+                        </div>
                     </div>
                     <?php
-                        echo '</div>';
                         $counter++;
+                        echo '</div>';
                     }
                     ?>
                 </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-productos" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-productos" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="lbproductos text-center">
-                <?php
-                $arrayProductosName = CFS()->get('producto_array');
-                $arrayEnd = end($arrayProductosName);
-                $counter = 0;
-                foreach( $arrayProductosName as $producto ) {
-                    if($counter > 5) {
-                        return true;
-                    }
-                ?>
-                <?php
-                    if( $counter == 0 ) {
-                        echo '<p id="label-'.$counter.'" class="">';
-                    }
-                    else {
-                        echo '<p id="label-'.$counter.'" class="hidden">';
-                    }
-                ?>
-                <?php echo $producto['producto_name']; ?>
-                <?php
-                    echo '</p>';
-
-                    $counter++;
-                }
-                ?>
-            </div>
+        </div>
+        <div class="bottom-background">
+            <img src="<?php echo bloginfo('template_url').'/'; ?>img/productos/bg.jpg" alt="">
         </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
