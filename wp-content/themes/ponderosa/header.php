@@ -24,8 +24,8 @@
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="<?php if($page != 'index') { echo 'index'; }?>#index" class="smoothScroll vertical-align nav-padd">INICIO</a></li>
-                        <li><a href="<?php if($page != 'index') { echo 'index'; }?>#nosotros" class="smoothScroll vertical-align nav-padd">NOSOTROS</a></li>
                         <li><a href="<?php if($page != 'index') { echo 'index'; }?>#productos" class="smoothScroll vertical-align nav-padd">PRODUCTOS</a></li>
+                        <li><a href="<?php if($page != 'index') { echo 'index'; }?>#linea" class="smoothScroll vertical-align nav-padd">NOSOTROS</a></li>
                         <li><a href="<?php if($page != 'index') { echo 'index'; }?>#index" class="smoothScroll vertical-align nav-logo"><img src="<?php echo bloginfo('template_url').'/'; ?>img/header/logoNavbar.png" alt="logo"></a></li>
                         <li><a href="<?php if($page != 'index') { echo 'index'; }?>#receta" class="smoothScroll vertical-align nav-padd">RECETAS</a></li>
                         <li><a href="<?php if($page != 'index') { echo 'index'; }?>#contactanos" class="smoothScroll vertical-align nav-padd">CONTÁCTANOS</a></li>

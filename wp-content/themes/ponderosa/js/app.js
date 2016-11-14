@@ -1,4 +1,4 @@
-$('.productos .img-container').click(function() {
+/*$('.productos .img-container').click(function() {
     //$(this).prev().find('img').css("zIndex", 9);
     $num=$(this).index('.productos .img-container');
     $lb='#label-'+$num;
@@ -6,10 +6,10 @@ $('.productos .img-container').click(function() {
     $('.productos .container .lbproductos p').addClass('hidden');
     $(this).addClass('active');
     $($lb).removeClass('hidden');
-});
+});*/
 
 
-$(window).scroll(function () {
+/*$(window).scroll(function () {
     var topDivHeight = $('#banner').height() + $('#nosotros').height();
     var viewPortSize = $(window).height();
     
@@ -20,5 +20,9 @@ $(window).scroll(function () {
         $('.fadein').css('visibility', 'visible').hide().fadeIn(2000);
         $(this).off('scroll');
     }
-});
+});*/
 
+$('.linea-click').click(function() {
+    $('.linea-click').removeClass('active');
+    $(this).addClass('active');
+});

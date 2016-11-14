@@ -6,7 +6,7 @@
     <!--/* BANNER  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner" id="banner">
+    <div class="banner" id="banner">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
@@ -44,30 +44,13 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--/* Nosotros  */-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="nosotros" id="nosotros">
-        <div class="container spacing">
-            <div class="text-center">
-                <img src="<?php echo bloginfo('template_url').'/'; ?>img/nosotros/logo.png" alt="">
-            </div>               
-            <div class="text-center">
-                <p>
-                    <?php echo CFS()->get('nosotros_text');?>
-                </p>
-            </div>        
-        </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* PRODUCTOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="productos" id="productos">
+    <div class="productos" id="productos">
         <div class="container">
             <div class="encabezado text-center">
                 <a><img src="<?php echo bloginfo('template_url').'/'; ?>img/productos/logo10.png" alt=""></a>
@@ -121,13 +104,96 @@
         <div class="bottom-background">
             <img src="<?php echo bloginfo('template_url').'/'; ?>img/productos/bg.jpg" alt="">
         </div>
-    </section>
+    </div>
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--/* LINEA */-->
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="linea" id="linea">
+        <div class="container spacing">
+            <div class="top">
+                <?php
+                $arrayLinea = CFS()->get('linea_tiempo_array');
+                $arrayEnd = end($arrayLinea);
+                $counter = 0;
+                foreach($arrayLinea as $dato)
+                {
+                    if($counter < 8)
+                    {
+                ?>
+                <?php
+                        if($counter == 0)
+                        {
+                            echo '<div role="tabpanel" class="tab-panel fade in active" id="year'.$counter.'">';
+                            echo '<div class="tab-content">';
+                        }
+                        else
+                        {
+                            echo '<div role="tabpanel" class="tab-panel fade" id="year'.$counter.'">';
+                            echo '<div class="tab-content">';
+                        }
+                ?>
+                <div class="col-sm-5 hidden-xs">
+                    <img class="vertical-align" src="<?php echo $dato['year_img']; ?>" alt="">
+                </div>
+                <a class="div-img"></a>
+                <div class="col-sm-7 vertical-align">
+                    <h3>
+                        Año <?php echo $dato['year']; ?>
+                    </h3>
+                    <p>
+                        <?php echo $dato['year_text']; ?>
+                    </p>
+                </div>
+                <?php
+                        echo '</div>';
+                        echo '</div>';
+                    }
+                    $counter++;
+                }
+                ?>
+            </div>
+            <div class="bottom">
+                <?php
+                $arrayLinea = CFS()->get('linea_tiempo_array');
+                $arrayEnd = end($arrayLinea);
+                $counter = 0;
+                foreach($arrayLinea as $dato)
+                {
+                    if($counter < 8)
+                    {
+                ?>
+                <div class="col-xs-1 punto">
+                    <h3>
+                        <?php echo $dato['year']; ?>
+                    </h3>
+                    <div class="line"></div>
+                    <?php
+                        if($counter == 0)
+                        {
+                            echo '<a class="linea-click active" href="#year'.$counter.'" aria-controls="year'.$counter.'" role="tab" data-toggle="tab"></a>';
+                        }
+                        else
+                        {
+                            echo '<a class="linea-click" href="#year'.$counter.'" aria-controls="year'.$counter.'" role="tab" data-toggle="tab"></a>';
+                        }
+                    ?>
+                </div>
+                <?php
+                    }
+                    $counter++;
+                }
+                ?>
+            </div>
+        </div>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* RECETAS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="receta parallax-container" id="receta">
+    <div class="receta parallax-container" id="receta">
         <div class="parallax">
             <img src="<?php echo bloginfo('template_url').'/'; ?>img/recetas/bg.jpg" alt="Parallax">
         </div>
@@ -228,13 +294,13 @@
             </div>
             <a class="bottom-button" href="recetas">VER MÁS RECETAS</a>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* CONTACTANOS  */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="contactanos" id="contactanos">
+    <div class="contactanos" id="contactanos">
         <div>
             <div class="googleMap" id="googleMap" position="contactanos"></div>
         </div>
@@ -273,6 +339,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </div>
 <?php include('footer.php'); ?>
