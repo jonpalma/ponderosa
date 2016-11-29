@@ -195,7 +195,7 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <div class="receta parallax-container" id="receta">
         <div class="parallax">
-            <img src="<?php echo bloginfo('template_url').'/'; ?>img/recetas/bg.jpg" alt="Parallax">
+            <img src="<?php echo bloginfo('template_url').'/'; ?>img/recetas/bg2.jpg" alt="Parallax">
         </div>
         <div class="container text-center spacing">
             <img class="icono" src="<?php echo bloginfo('template_url').'/'; ?>img/recetas/logo.png" alt="">
