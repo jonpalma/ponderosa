@@ -4,6 +4,9 @@
         <?php wp_head(); ?>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Desde hace 40 años Empacadora Ponderosa es una empresa de alimentos comprometida con la calidad y servicio para satisfacer los gustos y necesidades de nuestros consumidores.">
+        <meta name="keywords" content="ponderosa,ponde,alimentos,embutidos,salchicha,empacadora,jamón,queso,polaka,pastel,pimiento,arrachera,carne,asada,asar,parrilla">
+        <meta name="author" content="Mixen">
         <link rel="shortcut icon" type="img/png" href="<?php echo bloginfo('template_url').'/'; ?>img/favicon.ico"/>
         <link rel="stylesheet" href="<?php echo bloginfo('template_url').'/'; ?>css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
