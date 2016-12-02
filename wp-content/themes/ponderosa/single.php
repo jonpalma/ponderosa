@@ -6,7 +6,7 @@
     <!--/* BANNER */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner" id="banner">
+    <div class="banner" id="banner">
         <div class="toptop">
             <div class="container">
                 <div class="title">
@@ -14,13 +14,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* DETALLE */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="detalle" id="detalle">
+    <div class="detalle" id="detalle">
         <div class="container text-center light-spacing">
             <div class="top-title">
                 <div class="linea"></div>
@@ -121,13 +121,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* TOP-FOOTER */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="top-footer" id="top-footer">
+    <div class="top-footer" id="top-footer">
         <div class="container vertical-align">
             <div class="col-sm-3"></div>
             <div class="col-sm-6 text-center left-side">
@@ -139,6 +139,6 @@
             </div>
             <div class="col-sm-3"></div>
         </div>
-    </section>
+    </div>
 </div>
 <?php include('footer.php'); ?>

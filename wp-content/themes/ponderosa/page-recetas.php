@@ -6,19 +6,19 @@
     <!--/* BANNER */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="banner" id="banner">
+    <div class="banner" id="banner">
         <div class="container">
             <div class="title">
                 <p>RECETAS PONDEROSA</p>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* DESAYUNO */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="desayuno" id="desayuno">
+    <div class="desayuno" id="desayuno">
         <div class="container text-center light-spacing">
             <div class="top-title">
                 <div class="linea"></div>
@@ -122,13 +122,13 @@
                 </ol>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* COMIDA */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="comida" id="comida">
+    <div class="comida" id="comida">
         <div class="container text-center light-spacing">
             <div class="top-title">
                 <div class="linea"></div>
@@ -232,13 +232,13 @@
                 </ol>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* CENA */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="cena" id="cena">
+    <div class="cena" id="cena">
         <div class="container text-center light-spacing">
             <div class="top-title">
                 <div class="linea"></div>
@@ -342,13 +342,13 @@
                 </ol>
             </div>
         </div>
-    </section>
+    </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--/* TOP-FOOTER */-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section class="top-footer" id="top-footer">
+    <div class="top-footer" id="top-footer">
         <div class="container vertical-align">
             <div class="col-sm-3"></div>
             <div class="col-sm-6 text-center left-side">
@@ -360,6 +360,6 @@
             </div>
             <div class="col-sm-3"></div>
         </div>
-    </section>
+    </div>
 </div>
 <?php include('footer.php'); ?>
